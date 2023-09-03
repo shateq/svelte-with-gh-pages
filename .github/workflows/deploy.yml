@@ -18,8 +18,8 @@ jobs:
         with:
           node-version: "18.x"
           registry-url: "https://registry.npmjs.org"
+      - run: npm shrinkwrap
       - run: npm ci
-      - run: npm format # why?
       - name: Build
         run: npm run build
       - name: Deploy with gh-pages
