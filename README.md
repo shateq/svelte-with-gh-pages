@@ -2,6 +2,8 @@
 
 Analyze, refer to https://github.com/tschaub/gh-pages for deployment specifics.
 
+*Deploy permissions issue:* [#429](https://github.com/tschaub/gh-pages/issues/429#issuecomment-1126987413)
+
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
