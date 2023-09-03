@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src https://*;" /> -->
+		<!-- /svelte-with-gh-pages -->
+		<title>example.com</title>
+		<link rel="icon" href="/svelte-with-gh-pages/kebab.png" />
+		
+		<link href="/svelte-with-gh-pages/_app/immutable/assets/0.826c2aa2.css" rel="stylesheet">
+		<link href="/svelte-with-gh-pages/_app/immutable/assets/2.ab9039e0.css" rel="stylesheet">
+		<link rel="modulepreload" href="/svelte-with-gh-pages/_app/immutable/entry/start.8e1bbded.js">
+		<link rel="modulepreload" href="/svelte-with-gh-pages/_app/immutable/chunks/scheduler.e108d1fd.js">
+		<link rel="modulepreload" href="/svelte-with-gh-pages/_app/immutable/chunks/singletons.a8b8581a.js">
+		<link rel="modulepreload" href="/svelte-with-gh-pages/_app/immutable/entry/app.8c1ff825.js">
+		<link rel="modulepreload" href="/svelte-with-gh-pages/_app/immutable/chunks/index.0719bd3d.js">
+		<link rel="modulepreload" href="/svelte-with-gh-pages/_app/immutable/nodes/0.6b589e7d.js">
+		<link rel="modulepreload" href="/svelte-with-gh-pages/_app/immutable/nodes/2.28bf9465.js">
+	</head>
+
+	<body data-sveltekit-preload-data="hover">
+		<noscript>Scripting has been disabled.</noscript>
+		<div style="display: contents">  <h1 data-svelte-h="svelte-iynhd8">Hello there</h1> <p class="svelte-ljhrr6" data-svelte-h="svelte-dzyzb">Your styling has been applied :)</p> <a href="https://github.com/" data-svelte-h="svelte-phvjrm">github probably</a> 
+			
+			<script>
+				{
+					__sveltekit_wfns3g = {
+						assets: "/svelte-with-gh-pages",
+						base: "/svelte-with-gh-pages",
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [{"type":"data","data":null,"uses":{}},null];
+
+					Promise.all([
+						import("/svelte-with-gh-pages/_app/immutable/entry/start.8e1bbded.js"),
+						import("/svelte-with-gh-pages/_app/immutable/entry/app.8c1ff825.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
