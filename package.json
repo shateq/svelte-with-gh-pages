@@ -2,7 +2,12 @@
 	"name": "svelte-with-gh-pages",
 	"version": "0.0.1",
 	"private": true,
+	"license": "MIT",
 	"author": "shateq",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/shateq/svelte-with-gh-pages.git"
+	},
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",

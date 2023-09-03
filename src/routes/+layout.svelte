@@ -1,5 +1,5 @@
 <slot />
 
 <style>
-	@import url("$lib/../styles/index.css");
+	@import url('$lib/../styles/index.css');
 </style>
