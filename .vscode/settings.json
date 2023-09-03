@@ -2,5 +2,8 @@
 	"[svelte]": {
 		"editor.defaultFormatter": "svelte.svelte-vscode"
 	},
-	"editor.formatOnSave": false
+	"editor.formatOnSave": false,
+	"yaml.schemas": {
+		"https://json.schemastore.org/github-workflow.json": "file:///c%3A/Users/Szymon/Documents/Coding/svelted/.github/workflows/deploy.yml"
+	}
 }

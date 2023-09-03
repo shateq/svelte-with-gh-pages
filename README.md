@@ -1,6 +1,6 @@
 # svelte-with-gh-pages
 
-Analyze, refer to https://www.npmjs.com/package/gh-pages#tips for deploying with Actions.
+Analyze, refer to https://github.com/tschaub/gh-pages for deployment specifics.
 
 ## Developing
 
